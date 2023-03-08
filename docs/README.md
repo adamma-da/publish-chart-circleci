@@ -4,7 +4,7 @@ This repo is an experiment that hosts helm charts and uses circleci to manage an
 
 Guide:
 
-1. Set up the gitlab page using a branch.
+1. Set up the github page using a branch.
 
 2. Put some charts into the charts folder.
 
