@@ -29,7 +29,7 @@ for chart in $CHARTS_DIR/*; do
         cr upload -c $PUBLISH_BRANCH -r $GITREPO_NAME -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1
         # helm push $CHARTS_DIR/$chart_name-$chart_version.tgz $HELMREPO_NAME
         echo "Chart $chart_name version $chart_version has been pushed to repository $HELMREPO_NAME"
-        # rm ../.cr-release-packages/$chart_name-$chart_version.tgz
+        rm ../.cr-release-packages/$chart_name-$chart_version.tgz
     fi
 done
 cr index -r $GITREPO_NAME -i ../charts/ --pages-branch publish -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1
