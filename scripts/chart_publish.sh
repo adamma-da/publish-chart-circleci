@@ -32,7 +32,7 @@ for chart in $CHARTS_DIR/*; do
         # rm ../.cr-release-packages/$chart_name-$chart_version.tgz
     fi
 done
-cr index -r $GITREPO_NAME -i ../charts/ --pages-branch publish -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1
+cr index -r $GITREPO_NAME -i ../charts/ --pages-branch publish --pr -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1
 
 
 
