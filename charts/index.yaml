@@ -3,7 +3,46 @@ entries:
   crossplane:
   - apiVersion: v1
     appVersion: 1.9.8
-    created: "2023-03-09T17:16:06.98669+01:00"
+    created: "2023-03-09T17:20:15.135937+01:00"
+    description: Crossplane is an open source Kubernetes add-on that enables platform
+      teams to assemble infrastructure from multiple vendors, and expose higher level
+      self-service APIs for application teams to consume.
+    digest: bf6f713a3ba145d9b6413920118e59dff491fbec31ba46e514b514b32598f2c6
+    home: https://crossplane.io
+    icon: https://crossplane.io/images/favicon_192x192.png
+    keywords:
+    - cloud
+    - infrastructure
+    - services
+    - application
+    - database
+    - cache
+    - bucket
+    - infra
+    - app
+    - ops
+    - gcp
+    - azure
+    - aws
+    - alibaba
+    - cloudsql
+    - rds
+    - s3
+    - azuredatabase
+    - asparadb
+    - gke
+    - aks
+    - eks
+    maintainers:
+    - email: info@crossplane.io
+      name: Crossplane Maintainers
+    name: crossplane
+    urls:
+    - https://github.com/adamma-da/publish-chart-circleci/releases/download/crossplane-2.0.4/crossplane-2.0.4.tgz
+    version: 2.0.4
+  - apiVersion: v1
+    appVersion: 1.9.8
+    created: "2023-03-09T17:20:14.73143+01:00"
     description: Crossplane is an open source Kubernetes add-on that enables platform
       teams to assemble infrastructure from multiple vendors, and expose higher level
       self-service APIs for application teams to consume.
@@ -40,4 +79,4 @@ entries:
     urls:
     - https://github.com/adamma-da/publish-chart-circleci/releases/download/crossplane-2.0.3/crossplane-2.0.3.tgz
     version: 2.0.3
-generated: "2023-03-09T17:16:06.986704+01:00"
+generated: "2023-03-09T17:20:15.135952+01:00"
