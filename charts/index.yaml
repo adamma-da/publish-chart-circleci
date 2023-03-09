@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   crossplane:
   - apiVersion: v1
-    appVersion: 1.9.1
-    created: "2023-03-09T16:29:43.408421+01:00"
+    appVersion: 1.9.8
+    created: "2023-03-09T16:36:58.300763+01:00"
     description: Crossplane is an open source Kubernetes add-on that enables platform
       teams to assemble infrastructure from multiple vendors, and expose higher level
       self-service APIs for application teams to consume.
-    digest: 1b7216756ea6755e2b320e6b0effc41f997b8a408e4f5a89a89956cdddd8e641
+    digest: c0fb03a9aa43aee933aaae20d42797d39fbf89236ecc6cc5c4eb9b7227c2fa3f
     home: https://crossplane.io
     icon: https://crossplane.io/images/favicon_192x192.png
     keywords:
@@ -38,45 +38,6 @@ entries:
       name: Crossplane Maintainers
     name: crossplane
     urls:
-    - https://github.com/adamma-da/publish-chart-circleci/releases/download/crossplane-1.9.3/crossplane-1.9.3.tgz
-    version: 1.9.3
-  - apiVersion: v1
-    appVersion: 1.9.1
-    created: "2023-03-09T16:29:43.091496+01:00"
-    description: Crossplane is an open source Kubernetes add-on that enables platform
-      teams to assemble infrastructure from multiple vendors, and expose higher level
-      self-service APIs for application teams to consume.
-    digest: c0129346fc03088aef6263fbb7cdf5d36f2f1cc14151a35ceaa167201c8a6bbb
-    home: https://crossplane.io
-    icon: https://crossplane.io/images/favicon_192x192.png
-    keywords:
-    - cloud
-    - infrastructure
-    - services
-    - application
-    - database
-    - cache
-    - bucket
-    - infra
-    - app
-    - ops
-    - gcp
-    - azure
-    - aws
-    - alibaba
-    - cloudsql
-    - rds
-    - s3
-    - azuredatabase
-    - asparadb
-    - gke
-    - aks
-    - eks
-    maintainers:
-    - email: info@crossplane.io
-      name: Crossplane Maintainers
-    name: crossplane
-    urls:
-    - https://github.com/adamma-da/publish-chart-circleci/releases/download/crossplane-1.9.2/crossplane-1.9.2.tgz
-    version: 1.9.2
-generated: "2023-03-09T16:29:43.408437+01:00"
+    - https://github.com/adamma-da/publish-chart-circleci/releases/download/crossplane-1.9.8/crossplane-1.9.8.tgz
+    version: 1.9.8
+generated: "2023-03-09T16:36:58.300769+01:00"
