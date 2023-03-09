@@ -3,7 +3,7 @@ entries:
   crossplane:
   - apiVersion: v1
     appVersion: 1.9.8
-    created: "2023-03-09T17:20:15.135937+01:00"
+    created: "2023-03-09T17:36:59.476153+01:00"
     description: Crossplane is an open source Kubernetes add-on that enables platform
       teams to assemble infrastructure from multiple vendors, and expose higher level
       self-service APIs for application teams to consume.
@@ -42,7 +42,7 @@ entries:
     version: 2.0.4
   - apiVersion: v1
     appVersion: 1.9.8
-    created: "2023-03-09T17:20:14.73143+01:00"
+    created: "2023-03-09T17:36:59.058396+01:00"
     description: Crossplane is an open source Kubernetes add-on that enables platform
       teams to assemble infrastructure from multiple vendors, and expose higher level
       self-service APIs for application teams to consume.
@@ -79,4 +79,44 @@ entries:
     urls:
     - https://github.com/adamma-da/publish-chart-circleci/releases/download/crossplane-2.0.3/crossplane-2.0.3.tgz
     version: 2.0.3
-generated: "2023-03-09T17:20:15.135952+01:00"
+  waffle:
+  - apiVersion: v1
+    appVersion: 1.9.8
+    created: "2023-03-09T17:36:59.858562+01:00"
+    description: Crossplane is an open source Kubernetes add-on that enables platform
+      teams to assemble infrastructure from multiple vendors, and expose higher level
+      self-service APIs for application teams to consume.
+    digest: 62e10eeb472af89d4c863a514dd89e2f7b1f09e83607b29112b2c9ebdffd8c0b
+    home: https://crossplane.io
+    icon: https://crossplane.io/images/favicon_192x192.png
+    keywords:
+    - cloud
+    - infrastructure
+    - services
+    - application
+    - database
+    - cache
+    - bucket
+    - infra
+    - app
+    - ops
+    - gcp
+    - azure
+    - aws
+    - alibaba
+    - cloudsql
+    - rds
+    - s3
+    - azuredatabase
+    - asparadb
+    - gke
+    - aks
+    - eks
+    maintainers:
+    - email: info@crossplane.io
+      name: Crossplane Maintainers
+    name: waffle
+    urls:
+    - https://github.com/adamma-da/publish-chart-circleci/releases/download/waffle-2.0.4/waffle-2.0.4.tgz
+    version: 2.0.4
+generated: "2023-03-09T17:36:59.858595+01:00"
