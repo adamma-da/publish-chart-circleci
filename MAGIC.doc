@@ -1,0 +1,5 @@
+How this magic works
+
+1. The chart-releaser creates a release out of the charts in the .cr-release-packages folder and adds an entry to the index with the link to download the chart
+https://github.com/adamma-da/publish-chart-circleci/releases/download/crossplane-2.0.1/crossplane-2.0.1.tgz
+2. The page has to be rebuilt all the time the index changes. This is done automatically with a github action. Thats how pages work, its not a work we added.
