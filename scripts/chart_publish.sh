@@ -26,7 +26,7 @@ for chart in $CHARTS_DIR/*; do
     else
         # Handling the version incremented chart
         helm package $chart -d ../.cr-release-packages
-        cr upload -c $PUBLISH_BRANCH -r $GITREPO_NAME -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1
+        cr upload -c $PUBLISH_BRANCH -r $GITREPO_NAME -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1 | true
         # helm push $CHARTS_DIR/$chart_name-$chart_version.tgz $HELMREPO_NAME
         echo "Chart $chart_name version $chart_version has been pushed to repository $HELMREPO_NAME"
         # rm ../.cr-release-packages/$chart_name-$chart_version.tgz
