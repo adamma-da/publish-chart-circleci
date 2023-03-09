@@ -5,7 +5,7 @@ set -x
 # Set up script variables
 CHARTS_DIR=../charts
 HELMREPO_NAME=myrepo
-PUBLISH_BRANCH=publish
+PUBLISH_BRANCH=main
 GITREPO_NAME=publish-chart-circleci
 GITREPO_OWNER=adamma-da
 
@@ -32,7 +32,7 @@ for chart in $CHARTS_DIR/*; do
         # rm ../.cr-release-packages/$chart_name-$chart_version.tgz
     fi
 done
-cr index -r $GITREPO_NAME -i ../charts/ --pages-branch publish --pr -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1
+cr index -r $GITREPO_NAME -i ../charts/ --pages-branch main -p ../.cr-release-packages --owner $GITREPO_OWNER --token $1
 
 
 
